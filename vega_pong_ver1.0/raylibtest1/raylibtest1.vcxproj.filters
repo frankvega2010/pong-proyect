@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{fdf95740-2e0e-4a12-8594-b4d88e4e0d80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Screens">
+      <UniqueIdentifier>{b6246e7c-9bfa-41bb-9bb6-0560d8bd0e84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Setup">
+      <UniqueIdentifier>{79482ff4-e6b7-440d-bd32-bf7aa865f4da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Game\Screens\gameover.cpp">
+      <Filter>Game\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game\Screens\gameplay.cpp">
+      <Filter>Game\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game\Screens\menu.cpp">
+      <Filter>Game\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game\Setup\Game.cpp">
+      <Filter>Game\Setup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game\Setup\Player.cpp">
+      <Filter>Game\Setup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game\Setup\Ball.cpp">
+      <Filter>Game\Setup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\Game\Screens\howtoplay.cpp">
+      <Filter>Game\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game\Screens\settings.cpp">
+      <Filter>Game\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game\Screens\credits.cpp">
+      <Filter>Game\Screens</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Game\Screens\gameover.h">
+      <Filter>Game\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game\Screens\gameplay.h">
+      <Filter>Game\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game\Screens\menu.h">
+      <Filter>Game\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game\Setup\Game.h">
+      <Filter>Game\Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game\Setup\Player.h">
+      <Filter>Game\Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game\Setup\Ball.h">
+      <Filter>Game\Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game\Screens\howtoplay.h">
+      <Filter>Game\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game\Screens\settings.h">
+      <Filter>Game\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game\Screens\credits.h">
+      <Filter>Game\Screens</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

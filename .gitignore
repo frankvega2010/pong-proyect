@@ -1,0 +1,11 @@
+#bin folder
+**/bin
+
+#obj folder
+**/obj
+
+#vs folder
+**/.vs
+
+#except .suo
+.vs\asteroids\v15\!.suo
