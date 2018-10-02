@@ -4,8 +4,8 @@
 #obj folder
 **/obj
 
-#vs folder
-**/.vs
-
 #except .suo
 .vs\raylibtest1\v15\!.suo
+
+#vs folder
+**/.vs
